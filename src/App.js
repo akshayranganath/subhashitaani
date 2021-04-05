@@ -1,12 +1,14 @@
 import './App.css'
+import Subhashitam from './componenets/Subhashitam'
 
 function App () {
   return (
     <div className='App'>
       <header className='App-header'>
-        <p>
-          Simple Photo Album
-        </p>
+        <h3>
+        सुभाषितानि
+        </h3>
+        <Subhashitam />
       </header>
     </div>
   )
